@@ -1,0 +1,13 @@
+git config --global user.email "billkamp@gmail.com"
+git config --global user.name "Bill Kamp"
+
+# Make the repo on the web site,
+
+# Creates a remote named "origin" pointing at your Git<Hub repo
+git init
+git pull https://github.com/billkamp/python
+git remote add origin https://github.com/billkamp/python.git
+
+# Creates a remote named "origin" pointing at your GitHub repo
+git push origin master
+git push --set-upstream origin master
