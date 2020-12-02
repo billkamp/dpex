@@ -43,6 +43,7 @@ if __name__ == '__main__':
     print(approximate_size(1000000000000))
     mySize = -1
 # Example to throw an error.
+    mySize = 1230927430298570495
     print(approximate_size(mySize))
 
 # Copyright (c) 2009, Mark Pilgrim, All rights reserved.
