@@ -18,7 +18,7 @@ class KnownValues(unittest.TestCase):
             'waltz': 'waltzes'
             }
         for singular, plural in nouns.items():
-            print("Testing ", singular, "with result ", plural)
+            print("Now Testing ", singular, "with result ", plural)
             self.assertEqual(plural6.plural(singular), plural)
 
     def test_h(self):
